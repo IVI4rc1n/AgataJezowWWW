@@ -1,0 +1,14 @@
+.home-content {
+    background-image: linear-gradient(to right, rgba(90, 112, 108, 0.6) 30%, rgba(166, 207, 199, 0.6) 80%, rgba(255, 255, 255, 0.6) 100%), url("img/bg-home.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 96px);
+}
+
+.home-hero {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
