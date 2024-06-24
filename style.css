@@ -12,3 +12,7 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+.contact-bar {
+    height: 27px;
+}
