@@ -9,12 +9,21 @@
     margin: 0;
     position: absolute;
     top: 50%;
+    left: 10%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
 .contact-bar {
     height: 27px;
+}
+
+.menu-link {
+    color: #000;
+}
+
+.menu-link:hover {
+    color: #08A98C;
 }
 
 .cover-photo {
@@ -29,3 +38,35 @@
     left: calc(50% - 75px);
     top: calc(100% - 75px);
 }
+
+.down-arrow {
+    position: absolute;
+    top: calc(100vh - 110px);
+    left: calc(50% - 14px);
+    width: 0;
+    height: 30px;
+    animation: jumpInfinite 1.5s infinite;
+  }
+  
+  .down-arrow:after {
+    content: " ";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+  }
+  
+  @keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
