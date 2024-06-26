@@ -16,3 +16,16 @@
 .contact-bar {
     height: 27px;
 }
+
+.cover-photo {
+    height: 100px;
+    position: relative;
+}
+
+.cover-photo img {
+    border: 6px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 75px);
+    top: calc(100% - 75px);
+}
