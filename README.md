@@ -4,7 +4,6 @@ A responsive single-page website for a Gestalt psychotherapist based in Szczecin
 
 ## Features
 - **Responsive Design:** Fully compatible with mobile, tablet, and desktop devices.
-- **Brand Consistency:** Visual style and color palette (`#1a3024`) matched to the official logo.
 - **Sections:** - Bio and professional background.
   - Areas of clinical focus (individual and couples therapy).
   - Pricing and session duration details.
@@ -17,7 +16,6 @@ A responsive single-page website for a Gestalt psychotherapist based in Szczecin
 
 ## Assets
 - **Logo & Images:** Sourced from the local `/img` directory in the repository.
-- **Backgrounds:** Original hero graphics from the source files.
 
 ## Setup
 To view the website:
